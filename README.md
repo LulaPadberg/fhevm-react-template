@@ -6,6 +6,16 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue)](https://www.typescriptlang.org/)
 [![FHEVM](https://img.shields.io/badge/FHEVM-Zama-purple)](https://docs.zama.ai/fhevm)
 
+## 🏆 Bounty Program
+
+**GitHub Repository**: [https://github.com/LulaPadberg/fhevm-react-template](https://github.com/LulaPadberg/fhevm-react-template)
+
+**Live Example Application**: [https://fhe-vehicle-insurance.vercel.app/](https://fhe-vehicle-insurance.vercel.app/)
+
+**Example Smart Contract**: `0x2A86c562acc0a861A96E4114d7323987e313795F` (Sepolia Testnet)
+
+**Demo Video**: Download `demo.mp4` to watch the complete platform demonstration showcasing FHE vehicle insurance claims processing with full privacy protection.
+
 ## 🚀 Quick Start (< 10 lines!)
 
 ```bash
@@ -285,7 +295,7 @@ npm run dev
 
 ### Insurance Platform Example
 
-See the [insurance-dapp example](./examples/insurance-dapp) for a real-world production application using the SDK.
+See the [insurance platform example](./examples/insurance-platform) for a real-world production application demonstrating privacy-preserving vehicle insurance claims processing. The live application is deployed at [https://fhe-vehicle-insurance.vercel.app/](https://fhe-vehicle-insurance.vercel.app/) using smart contract `0x2A86c562acc0a861A96E4114d7323987e313795F`.
 
 ## 🏗️ Architecture
 
@@ -306,7 +316,7 @@ See the [insurance-dapp example](./examples/insurance-dapp) for a real-world pro
 
 ## 🚢 Deployment
 
-The showcase is deployed at: [https://universal-fhevm-sdk.vercel.app](https://universal-fhevm-sdk.vercel.app)
+The showcase is deployed at: [https://fhe-vehicle-insurance.vercel.app/](https://fhe-vehicle-insurance.vercel.app/)
 
 ## 📝 Documentation
 
@@ -345,8 +355,8 @@ Built with:
 ## 📞 Support
 
 - 📚 [Documentation](./docs)
-- 🐛 [Issue Tracker](https://github.com/your-repo/issues)
-- 💬 [Discussions](https://github.com/your-repo/discussions)
+- 🐛 [Issue Tracker](https://github.com/LulaPadberg/fhevm-react-template/issues)
+- 💬 [Discussions](https://github.com/LulaPadberg/fhevm-react-template/discussions)
 - 🌐 [Zama Discord](https://discord.gg/zama)
 
 ## 🎯 Roadmap
