@@ -281,21 +281,47 @@ const { decryptValue, decryptBatch, isDecrypting, error, result } = useDecrypt({
 });
 ```
 
-## 🎨 Examples
+## 🎨 Examples & Templates
 
-### Complete Next.js Application
+### Templates
 
-See the [Next.js showcase](./examples/nextjs-showcase) for a complete working example.
+The `templates/` directory contains ready-to-use starter templates:
+
+- **[Next.js Template](./templates/nextjs)** - Complete Next.js application with SDK integration
+- **[Insurance Frontend Template](./templates/insurance-frontend)** - Production-ready insurance platform
 
 ```bash
-cd examples/nextjs-showcase
+# Use a template to start your project
+cd templates/nextjs
 npm install
 npm run dev
 ```
 
-### Insurance Platform Example
+### Working Examples
 
-See the [insurance platform example](./examples/insurance-platform) for a real-world production application demonstrating privacy-preserving vehicle insurance claims processing. The live application is deployed at [https://fhe-vehicle-insurance.vercel.app/](https://fhe-vehicle-insurance.vercel.app/) using smart contract `0x2A86c562acc0a861A96E4114d7323987e313795F`.
+The `examples/` directory contains comprehensive examples:
+
+- **[Next.js Showcase](./examples/nextjs-showcase)** - Full-featured demo with encryption, decryption, and UI components
+- **[Private Vehicle Insurance](./examples/private-vehicle-insurance)** - Complete insurance platform with SDK integration (React + Next.js)
+- **[Insurance Platform Frontend](./examples/insurance-platform-frontend)** - Real-world insurance application
+- **[Insurance Platform Contracts](./examples/insurance-platform)** - Smart contract implementation
+- **[PrivateVehicleInsurance](./examples/PrivateVehicleInsurance)** - Static HTML reference implementation
+
+```bash
+# Run an example
+cd examples/nextjs-showcase
+npm install
+npm run dev
+
+# Or try the private vehicle insurance app
+cd examples/private-vehicle-insurance
+npm install
+npm run dev
+```
+
+### Live Deployment
+
+See the live insurance platform example at [https://fhe-vehicle-insurance.vercel.app/](https://fhe-vehicle-insurance.vercel.app/) using smart contract `0x2A86c562acc0a861A96E4114d7323987e313795F` on Sepolia Testnet.
 
 ## 🏗️ Architecture
 

@@ -23,7 +23,7 @@
 
 ## 2. ✅ SDK Integration - All Examples
 
-**Requirement:** Import本dapp作为案例，所有案例集成SDK
+**Requirement:** All examples must integrate the SDK
 
 ### Example 1: Next.js Showcase ✅
 
